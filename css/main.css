@@ -352,7 +352,7 @@ color: var(--IconColor);
     align-items: center;
     width: 8%;
     justify-content: space-evenly;}
-@media only screen and (max-width: 600px)and (orientation: landscape) {
+@media only screen and (max-width: 600px){
   /* For tablets: */
   #menuandprofile{width: 26%;}
   .wrapper ul li a{font-size: 22px;}
@@ -552,7 +552,7 @@ color: var(--IconColor);
     }
     
     /* Media queries*/
-    @media screen and (min-width: 640px)and (orientation: landscape) {
+    @media screen and (min-width: 640px){
     
       .mapboxgl-ctrl-geocoder.mapboxgl-ctrl-geocoder--collapsed {
         width: 36px;
