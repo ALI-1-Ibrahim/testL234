@@ -149,7 +149,7 @@ input[type="checkbox"]{
   100% {transform: rotate(90deg);}
 }
 
-@media only screen and (max-width: 600px)and (orientation: landscape) {
+@media only screen and (max-width: 600px){
   /* For tablets: */
   
   .wrapper ul li a{font-size: 22px;}
