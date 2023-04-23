@@ -12,11 +12,11 @@ var validate_location = false;
 
 var validate_image = false;
 
-// mapboxgl.setRTLTextPlugin(
-//   'https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-rtl-text/v0.2.3/mapbox-gl-rtl-text.js',
-//   null,
-//   true // Lazy load the plugin
-//   );
+mapboxgl.setRTLTextPlugin(
+  'https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-rtl-text/v0.2.3/mapbox-gl-rtl-text.js',
+  null,
+  true // Lazy load the plugin
+  );
 mapboxgl.accessToken = 'pk.eyJ1IjoibWF6ZW54ZWxnYXlhciIsImEiOiJjbDV3eDEwejAwZmU3M2NwaXU4YzY5dTE0In0.ywGQXbcUzmKG1zk8e8ZYyg';
 var coordinates = document.getElementById('coordinates');
 var map = new mapboxgl.Map({
